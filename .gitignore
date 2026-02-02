@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Environment / Secrets
+.env
+
+# Project Specific (Don't commit the actual data/index)
+data/raw/*
+
+# But DO NOT ignore these specific sample files
+!data/raw/2021-Student-Code.pdf
+!data/raw/.gitkeep
+
+# Still ignore all processed index files
+data/processed/*
+!data/processed/.gitkeep
+
+# OS
+.DS_Store
